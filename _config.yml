@@ -1,0 +1,25 @@
+title:              "Zip Soon Hee"
+tagline:            "집순희의 갭이어 프로젝트20"
+email:              "zip.soon.hee@gmail.com"
+description:        "방랑하는 영혼들을 위하여.."
+author:             "집순희"
+baseurl:            "/"
+url:                "www.zipsoonhee.com/"
+locale:             "ko_KR"
+thumbnail:          "/img/thum.png"
+
+# Social Profiles
+instagram_username: zip.soon.hee
+
+
+# Build settings
+markdown:           kramdown
+permalink:          /:title
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-paginate
+
+  # 블로그 disqus shortname
+disqus:
+  shortname: http-zipsoonhee-com
